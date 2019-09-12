@@ -1,0 +1,28 @@
+header img.iconAvalEngenharia {
+    float: left;
+    margin: 20px 500px 10px 300px;
+    height: 100px;
+    width: 140px;
+    background-color: #707eff;
+}
+
+header {
+	background-color: #707eff;
+	height: 130px;
+	margin-top: 0px;
+}
+
+header a {
+	background-color: white;
+	color: #707eff;
+	text-decoration: none;
+	margin-top: 40px;
+	margin-right: 50px;
+	shape-outside: content-box;
+	border-radius: 10px;
+	border: 10px solid white;
+	line-height: 1.5;
+  	display: inline-block;
+	vertical-align: middle;
+
+}
