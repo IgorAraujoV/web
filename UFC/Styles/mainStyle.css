@@ -1,0 +1,49 @@
+body {
+	background-color: #e3e3e3;
+}
+
+#main {
+	width: 1000px;
+	margin: auto;
+	background-color: /*#e3e3e3*/white;
+	font-family: helvetica;
+}
+
+.iconUfcSite {
+	height: 180px;
+	width: 390px;
+}
+
+header nav.nav1 {
+	border: 1px solid;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	font-size: 15px;
+	height: 35px;
+}
+
+header nav.nav2 {
+	padding-left: 10px;
+	font-size: 16px;
+	border: 1px solid;
+	border-right: transparent;
+	border-left: transparent;
+}
+
+header nav ul li {
+	list-style: none;
+	padding-left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: blue;
+}
+
+header nav ul li a:hover {
+	color: #FFA500;
+
+}
