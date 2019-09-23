@@ -102,3 +102,80 @@ header nav ul li img {
 	float: left;
 	padding-right: 30px
 }
+
+.nossahistoria {
+	height: 400px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	color: white;
+	border: 1px solid white;
+}
+
+.nhtxt {
+	float: left;
+	text-align: justify;
+	margin-top: -20px;
+	padding-top: 0px;
+	width: 450px;
+	height: 250px;
+	font-size: 21px;
+}
+
+.nhimg {
+	font-size: 30px;
+	margin-left: 70px;
+}
+
+.nhimg img{
+	margin-left: -15px;
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 30px
+}
+
+.casashogwarts {
+	height: 400px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	color: white;
+	border: 1px solid white;
+	display: table;
+}
+
+.img1 {
+	margin-left: 70px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.tit {
+	font-size: 30px;
+	margin-left: 70px;	
+}
+
+.chimg00 {
+	font-size: 30px;
+}
+
+.chimg00 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	display: table-cell;
+	background-color: #ff6343;
+}
+
+.chimg00txt button{
+	display: table-row;
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
