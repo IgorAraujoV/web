@@ -3,25 +3,24 @@ body {
 }
 
 #main {
-	width: 1400px;
-	height: 1000px;
+	width: 1000px;
+	height: 100%;
 	margin: auto;
-	background-color: blue;
-	font-family: Chilanka;
+	background-color: black;
+	font-family: 'Chilanka';
 	margin-top: -10px;
 }
 
 .nav1 {
-	background-color: green;
-	width: 1700px;
+	width: 1900px;
 	margin-left: -280px;
 }
 
 header {
-	background-color: red;
+	background-color: black;
 	padding-left: 500px;
 	height: 70px;
-	width: 1000px;
+	width: 1900px;
 	border: 1px solid white;
 	margin-top: 0px;
 }
@@ -35,6 +34,7 @@ header nav {
 
 header nav ul {
 	vertical-align: middle;
+	margin-left: -150px;
 }
 
 header nav ul li {
@@ -46,34 +46,59 @@ header nav ul li {
 	vertical-align: middle;
 }
 
-header nav ul li a {
-	text-decoration: none;
-}
-
-header nav ul li a:hover{
-	text-decoration: underline;
-}
-
 header nav ul li img {
 	list-style: none;
 	padding-left: 0px;
-	padding-right: 70px;
+	padding-right: 40px;
 	display: inline-block;
 	height: 30px;
 	width: 30px;
+	margin-left: -390px;
 }
 
 .sections {
 	margin: auto;
-	width: 500px;
+	width: 800px;
 	height: 700px;
 	color: white;
-	background-color: black;
+	background-color: none;
+	text-align: center;
 }
 
 .sections img{
 	height: 450px;
 	width: 450px;
 	padding-left: 35px;
-	padding-top: 20px;
+	padding-top: 40px;
+}
+
+.quemsomos {
+	height: 400px;
+	width: 950px;
+	margin-left: 25px;
+	color: white;
+	border: 1px solid white;
+}
+
+.qstxt {
+	float: left;
+	text-align: justify;
+	margin-top: -20px;
+	padding-top: 0px;
+	width: 450px;
+	height: 250px;
+	font-size: 21px;
+}
+
+.qsimg {
+	font-size: 30px;
+	margin-left: 70px;
+}
+
+.qsimg img{
+	margin-left: -15px;
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 30px
 }
