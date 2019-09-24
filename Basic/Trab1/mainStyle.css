@@ -8,19 +8,20 @@ body {
 	margin: auto;
 	background-color: black;
 	font-family: 'Chilanka';
-	margin-top: -10px;
 }
-
-.nav1 {
-	width: 1900px;
-	margin-left: -280px;
+.divnav {
+	width: 102%;
+	font-family: 'Chilanka';
+	text-align: center;
+	margin-top: -10px;
+	margin-left: -15px;
 }
 
 header {
 	background-color: black;
-	padding-left: 500px;
 	height: 70px;
-	width: 1900px;
+	width: 101%;
+	margin: auto;
 	border: 1px solid white;
 	margin-top: 0px;
 }
