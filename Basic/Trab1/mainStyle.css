@@ -1,0 +1,375 @@
+body {
+	background-image: url("img/panodefundo.png");	
+}
+
+#main {
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	background-color: black;
+	font-family: 'Chilanka';
+}
+.divnav {
+	width: 102%;
+	font-family: 'Chilanka';
+	text-align: center;
+	margin-top: -10px;
+	margin-left: -15px;
+}
+
+header {
+	background-color: black;
+	height: 70px;
+	width: 101%;
+	margin: auto;
+	border: 1px solid white;
+	margin-top: 0px;
+}
+
+header nav {
+	border: 1px;
+	border-color: white;
+	vertical-align: middle;
+	padding-top: 2px;
+}
+
+header nav ul {
+	vertical-align: middle;
+	margin-left: -150px;
+}
+
+header nav ul li {
+	list-style: none;
+	padding-left: 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	vertical-align: middle;
+}
+
+header nav ul li img {
+	list-style: none;
+	padding-left: 0px;
+	padding-right: 40px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin-left: -390px;
+}
+
+.sections {
+	margin: auto;
+	width: 800px;
+	height: 700px;
+	color: white;
+	background-color: none;
+	text-align: center;
+}
+
+.sections img{
+	height: 450px;
+	width: 450px;
+	padding-left: 35px;
+	padding-top: 40px;
+}
+
+.quemsomos {
+	height: 400px;
+	width: 950px;
+	margin-left: 25px;
+	color: white;
+	border: 1px solid white;
+}
+
+.qstxt {
+	float: left;
+	text-align: justify;
+	margin-top: -20px;
+	padding-top: 0px;
+	width: 450px;
+	height: 250px;
+	font-size: 21px;
+}
+
+.qsimg {
+	font-size: 30px;
+	margin-left: 70px;
+}
+
+.qsimg img{
+	margin-left: -15px;
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 30px
+}
+
+.nossahistoria {
+	height: 400px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	color: white;
+	border: 1px solid white;
+}
+
+.nhtxt {
+	float: left;
+	text-align: justify;
+	margin-top: -20px;
+	padding-top: 0px;
+	width: 450px;
+	height: 250px;
+	font-size: 21px;
+}
+
+.nhimg {
+	font-size: 30px;
+	margin-left: 70px;
+}
+
+.nhimg img{
+	margin-left: -15px;
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 30px
+}
+
+.casashogwarts {
+	height: 820px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	padding-bottom: 80px;
+	color: white;
+	border: 1px solid white;
+}
+
+.tit {
+	font-size: 30px;
+	margin-left: 70px;	
+}
+
+.grid {
+	display: grid;
+	padding-left: 35px;
+	grid-template-columns: 250px 250px;
+	grid-template-rows: 375px 415px;
+}
+
+.img1 {
+	margin-left: 125px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg00 {
+	font-size: 30px;
+}
+
+.chimg00 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #ff6343;
+}
+
+.chimg00txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
+.img2 {
+	margin-left: 250px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg01 {
+	font-size: 30px;
+}
+
+.chimg01 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #23af9a;
+}
+
+.chimg01txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
+.img3 {
+	margin-top: 50px;
+	margin-left: 125px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg10 {
+	font-size: 30px;
+}
+
+.chimg10 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #273395;
+}
+
+.chimg10txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
+.img4 {
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg11 {
+	font-size: 30px;
+}
+
+.chimg11 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #f6f47c;
+}
+
+.chimg11txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
+.noticias {
+	height: 820px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	padding-bottom: 80px;
+	color: white;
+	border: 1px solid white;
+}
+
+.lblNoticias {
+	font-size: 30px;
+	margin-left: 70px;	
+}
+
+.gridNoticias {
+	display: grid;
+	padding-left: 35px;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 500px;
+}
+
+.noticia1 {
+	margin-top: 30px;
+	margin-left: 95px;
+	width: 300px;
+}
+
+.noticia1Img {
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.noticia1Img img {
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.noticia1Txt p {
+	font-size: 21px;
+	text-align: justify;
+	height: 200px;
+	margin-top: 250px;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: black;
+	color: white;
+	border:1px solid white;
+}
+
+.noticia1Button button{
+	font-size: 21px;
+	text-align: center;
+	width: 130px;
+	margin-left: 80px;
+	background-color: black;
+	color: white;
+}
+
+.noticia2 {
+	margin-top: 30px;
+	margin-left: 220px;
+	width: 300px;
+}
+
+.noticia2Img {
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.noticia2Img img {
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.noticia2Txt p {
+	font-size: 21px;
+	text-align: justify;
+	height: 200px;
+	margin-top: 250px;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: black;
+	color: white;
+	border:1px solid white;
+}
+
+.noticia2Button button{
+	font-size: 21px;
+	text-align: center;
+	width: 130px;
+	margin-left: 86px;
+	background-color: black;
+	color: white;
+}
