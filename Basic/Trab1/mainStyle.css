@@ -136,24 +136,31 @@ header nav ul li img {
 }
 
 .casashogwarts {
-	height: 400px;
+	height: 820px;
 	width: 950px;
 	margin-top: 30px;
 	margin-left: 25px;
+	padding-bottom: 80px;
 	color: white;
-	border: 1px solid white;
-	display: table;
-}
-
-.img1 {
-	margin-left: 70px;
-	width: 250px;
 	border: 1px solid white;
 }
 
 .tit {
 	font-size: 30px;
 	margin-left: 70px;	
+}
+
+.grid {
+	display: grid;
+	padding-left: 35px;
+	grid-template-columns: 250px 250px;
+	grid-template-rows: 375px 415px;
+}
+
+.img1 {
+	margin-left: 125px;
+	width: 250px;
+	border: 1px solid white;
 }
 
 .chimg00 {
@@ -164,12 +171,10 @@ header nav ul li img {
 	width: 250px;
 	height: 300px;
 	float: left;
-	display: table-cell;
 	background-color: #ff6343;
 }
 
 .chimg00txt button{
-	display: table-row;
 	font-size: 21px;
 	text-align: center;
 	width: 200px;
@@ -179,3 +184,90 @@ header nav ul li img {
 	background-color: black;
 	color: white;
 }
+
+.img2 {
+	margin-left: 250px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg01 {
+	font-size: 30px;
+}
+
+.chimg01 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #23af9a;
+}
+
+.chimg01txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
+.img3 {
+	margin-top: 50px;
+	margin-left: 125px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg10 {
+	font-size: 30px;
+}
+
+.chimg10 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #273395;
+}
+
+.chimg10txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
+.img4 {
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 250px;
+	border: 1px solid white;
+}
+
+.chimg11 {
+	font-size: 30px;
+}
+
+.chimg11 img{
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: #f6f47c;
+}
+
+.chimg11txt button{
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+}
+
