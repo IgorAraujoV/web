@@ -273,7 +273,7 @@ header nav ul li img {
 }
 
 .noticias {
-	height: 820px;
+	height: 700px;
 	width: 950px;
 	margin-top: 30px;
 	margin-left: 25px;
@@ -291,7 +291,7 @@ header nav ul li img {
 	display: grid;
 	padding-left: 35px;
 	grid-template-columns: 300px 300px;
-	grid-template-rows: 500px;
+	grid-template-rows: 500px 100px;
 }
 
 .noticia1 {
@@ -372,4 +372,86 @@ header nav ul li img {
 	margin-left: 86px;
 	background-color: black;
 	color: white;
+}
+
+.btnVerMaisNoticias button{
+	font-size: 21px;
+	text-align: center;
+	width: 210px;
+	margin-top: 100px;
+	margin-left: 340px;
+	background-color: black;
+	color: white;
+}
+
+.lblCadastro {
+	font-size: 30px;
+	margin-left: 70px;	
+}
+
+.cadastro {
+	height: 700px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	padding-bottom: 80px;
+	color: white;
+	border: 1px solid white;
+}
+
+.cadastro form {
+	margin-left: 100px;
+	margin-top: 70px;
+	width: 730px;
+	background-color: white;
+}
+
+.campo_nome {
+	width: 680px;
+	height: 30px;
+	padding-left: 10px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.campo_wpp {
+	width: 680px;
+	height: 30px;
+	margin-left: 20px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.campo_email {
+	width: 680px;
+	height: 30px;
+	margin-left: 20px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.campo_senha {
+	width: 680px;
+	height: 30px;
+	padding-left: 10px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.comecar {
+	width: 680px;
+	height: 30px;
+	font-weight: bold;
+	color: white;
+	background-color: dimgray;
+	border-color: dimgray;
+	padding-left: 10px;
+
+	margin-left:30px;
+	margin-bottom: 30px;
+	border-radius: 5px;
 }
