@@ -8,6 +8,7 @@ body {
 	margin: auto;
 	background-color: black;
 	font-family: 'Chilanka';
+	margin-bottom: 1px;
 }
 .divnav {
 	width: 102%;
@@ -34,6 +35,7 @@ header nav {
 }
 
 header nav ul {
+	margin-top: 20px;
 	vertical-align: middle;
 	margin-left: -150px;
 }
@@ -54,7 +56,14 @@ header nav ul li img {
 	display: inline-block;
 	height: 30px;
 	width: 30px;
-	margin-left: -390px;
+}
+
+.iconNav1 {
+	margin-left: 200px;
+	margin-right: -200px;
+	float: left;
+	height: 30px;
+	width: 30px;
 }
 
 .sections {
@@ -390,7 +399,7 @@ header nav ul li img {
 }
 
 .cadastro {
-	height: 700px;
+	height: 600px;
 	width: 950px;
 	margin-top: 30px;
 	margin-left: 25px;
@@ -400,7 +409,7 @@ header nav ul li img {
 }
 
 .cadastro form {
-	margin-left: 100px;
+	margin-left: 110px;
 	margin-top: 70px;
 	width: 730px;
 	background-color: white;
@@ -410,6 +419,7 @@ header nav ul li img {
 	width: 680px;
 	height: 30px;
 	padding-left: 10px;
+	margin-top: 10px;
 	margin-left: 20px;
 	margin-bottom: 30px;
 	border-radius: 5px;
@@ -450,8 +460,180 @@ header nav ul li img {
 	background-color: dimgray;
 	border-color: dimgray;
 	padding-left: 10px;
-
 	margin-left:30px;
 	margin-bottom: 30px;
 	border-radius: 5px;
+}
+
+.gridCadastroRedesSociais {
+	display: grid;
+	grid-template-columns: 300px 300px;
+}
+
+.p0 {
+	color: black;
+	width: 200px;
+	height: 30px;
+	margin-left: 300px;
+	padding-top: 20px;
+	margin-bottom: -15px;
+	font-weight: bold;
+
+}
+
+.p1 {
+	color: black;
+	width: 200px;
+	margin-left: 270px;
+	font-weight: bold;
+}
+
+.btnFace {
+	height: 40px;
+	width: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #3a5896;
+	color: white;
+	margin-left: 30px;
+	margin-top: 20px;
+	padding-bottom: 10px; 
+	padding-top: 8px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	border: 1px solid #3a5896;
+	border-radius: 5px;
+}
+
+.btnFace img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: -6px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.btnGoogle {
+	height: 40px;
+	width: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: white;
+	color: gray;
+	margin-left: 70px;
+	padding-bottom: 10px; 
+	padding-top: 8px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	vertical-align: middle;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+}
+
+.btnGoogle img {
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-top: -6px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.redesSociais {
+	height: 150px;
+	width: 950px;
+	margin-top: 30px;
+	margin-left: 25px;
+	color: white;
+	border: 1px solid white;
+	margin-bottom: 20px;
+}
+
+.gridRedesSociais {
+	display: grid;
+	grid-template-columns: 300px 300px;
+}
+
+.btnInsta {
+	height: 40px;
+	width: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: white;
+	color: gray;
+	margin-left: 150px;
+	padding-bottom: 10px; 
+	padding-top: 8px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+}
+
+.btnInsta img {
+	height: 33px;
+	width: 35px;
+	float: left;
+	margin-top: -6px;
+	margin-right: 6px;
+	margin-left: 20px;
+}
+
+.btnFace2 {
+	height: 40px;
+	width: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #3a5896;
+	color: white;
+	margin-left: 190px;
+	padding-bottom: 10px; 
+	padding-top: 8px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	border: 1px solid #3a5896;
+	border-radius: 5px;
+}
+
+.btnFace2 img {
+	height: 34px;
+	width: 33px;
+	float: left;
+	margin-top: -6px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.lblRedesSociais {
+	font-size: 30px;
+	margin-left: 70px;	
+}
+
+.divfooter {
+	width: 102%;
+	font-family: 'Chilanka';
+	margin-left: -15px;
+	height: 70px;
+	border: 1px solid white;
+	background-color: black;
+	float: bottom;
+	position:absolute;
+}
+
+.rodape {
+	color: white;
+	font-size: 20px;
+	vertical-align: middle;
+	padding-top: 30px;
+	text-align: center;
+
+}
+
+.rodape img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: -10px;
+	margin-left: 60px;
 }
