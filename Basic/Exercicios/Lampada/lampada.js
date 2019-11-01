@@ -8,7 +8,7 @@ const acender = function() {
         return;
     }
     body.style.backgroundColor = '#fffc96';
-    lampada.src = './lampada_acessa.jpg';
+    lampada.src = './images/lampada_acessa.jpg';
 }
 
 const apagar = function() {
@@ -16,13 +16,13 @@ const apagar = function() {
         console.log(lampada.src);
         return;
     }
-    body.style.backgroundColor = 'gray';
-    lampada.src = './lampada_apagada.jpg';
+    body.style.backgroundColor = '#ddd';
+    lampada.src = './images/lampada_apagada.jpg';
 }
 
 const quebrar = function() {
-    lampada.src = './lampada_quebrada.jpg';
-    body.style.backgroundColor = 'darkgray';
+    lampada.src = './images/lampada_quebrada.jpg';
+    body.style.backgroundColor = '#ddd';
     mensagem.innerHTML = "Vish, deu ruim, uma vez quebrada, as ações são desativadas.";
     this.quebrou = true;
 }

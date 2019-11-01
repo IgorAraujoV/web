@@ -12,5 +12,14 @@ body {
 	width: 70%;
 	padding-left: 10%;
 	padding-right: 10%;
+	text-align: center;
 	background-color: black;
 }
+
+.container img {
+	margin-top: 2%;
+}
+/*.sections p {
+	color: white;
+	background-color: white;
+}*/
